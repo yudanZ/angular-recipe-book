@@ -18,6 +18,8 @@ import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component
 import { AuthComponent } from './auth/auth.component';
 import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.component';
 import { JwtInterceptor } from './_interceptors/jwt.interceptor';
+import { AlertComponent } from './alert/alert.component';
+import { PlaceholdDirective } from './_directives/placehold.directive';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { JwtInterceptor } from './_interceptors/jwt.interceptor';
     RecipeStartComponent,
     RecipeEditComponent,
     AuthComponent,
-    LoadingSpinnerComponent
+    LoadingSpinnerComponent,
+    AlertComponent,
+    PlaceholdDirective
   ],
   imports: [
     BrowserModule,
